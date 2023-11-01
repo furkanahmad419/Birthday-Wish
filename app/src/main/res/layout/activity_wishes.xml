@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Wishes">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/balloonlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloon"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloontwo"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloonthree"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloonfor"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloon"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/wishes_img"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/balloonlayout"/>
+
+        <TextView
+            android:id="@+id/in_bdayname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wishes_img"
+            android:layout_marginTop="5dp"
+            android:textColor="#E91E63"
+            android:textStyle="bold|italic"
+            android:fontFamily="cursive"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:shadowColor="#F5A623"
+            android:shadowDx="12"
+            android:shadowDy="12"
+            android:shadowRadius="8"
+            android:rotationX="40"/>
+
+        <TextView
+            android:id="@+id/in_bdayage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/in_bdayname"
+            android:layout_marginTop="5dp"
+            android:textColor="#E91E63"
+            android:textStyle="bold|italic"
+            android:fontFamily="cursive"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:shadowColor="#F5A623"
+            android:shadowDx="12"
+            android:shadowDy="12"
+            android:shadowRadius="8"
+            android:rotationX="40"/>
+
+        <ImageView
+            android:id="@+id/wishes_cake_img"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/in_bdayage"/>
+
+        <TextView
+            android:id="@+id/bday_quotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wishes_cake_img"
+            android:layout_marginTop="5dp"
+            android:textColor="#E91E63"
+            android:textStyle="bold|italic"
+            android:fontFamily="cursive"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:shadowColor="#FF9800"
+            android:shadowDx="12"
+            android:shadowDy="12"
+            android:text="“Wishing you a day filled with happiness and a year filled with joy"
+            android:shadowRadius="8" />
+
+
+        <LinearLayout
+            android:id="@+id/balloonlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloonfor"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloon"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloontwo"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloonthree"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/balloon"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
